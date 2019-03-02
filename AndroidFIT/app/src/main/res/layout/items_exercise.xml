@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/exe_item_id">
+
+
+
+        <TextView
+            android:id="@+id/exe_name"
+            android:text="Exercise name"
+            style="@style/exercise_title" />
+
+
+    
+</LinearLayout>
