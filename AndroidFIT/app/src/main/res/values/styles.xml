@@ -14,4 +14,29 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="workout_title">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">50dp</item>
+    <item name="android:textStyle">bold</item>
+</style>
+
+    <style name="setsn">
+        <item name="android:layout_width">130dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name= "android:layout_marginRight">20dp</item>
+        <item name= "android:outlineAmbientShadowColor">@android:color/white</item>
+        <item name= "android:outlineSpotShadowColor">@android:color/white</item>
+        <item name= "android:textColor">@android:color/black</item>
+    </style>
+    <style name="weightsn">
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name= "android:layout_marginRight">20dp</item>
+        <item name= "android:outlineAmbientShadowColor">@android:color/white</item>
+        <item name= "android:outlineSpotShadowColor">@android:color/white</item>
+        <item name= "android:textColor">@android:color/black</item>
+    </style>
+
 </resources>

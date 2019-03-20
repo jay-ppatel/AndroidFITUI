@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_marginTop="10dp"
+    style="@style/workout_title"
+    android:id="@+id/workout_list_id"
+   >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a49d9d"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="50dp"
+        >
+
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginBottom="10dp"
+            android:hint="DATE"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/exe_id"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/exe_id"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sets"
+                style="@style/setsn"
+                android:hint="@string/sets" />
+
+
+            <TextView
+                android:id="@+id/pounds"
+                style="@style/weightsn"
+                android:hint="@string/lbs" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

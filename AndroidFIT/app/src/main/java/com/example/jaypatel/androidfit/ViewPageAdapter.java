@@ -23,6 +23,7 @@ public class ViewPageAdapter extends FragmentPagerAdapter {
 
     //constructor
     public ViewPageAdapter(FragmentManager fm){
+
         super(fm);
     }
 

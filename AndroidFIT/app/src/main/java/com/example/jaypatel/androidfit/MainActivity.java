@@ -17,15 +17,15 @@ private TabLayout tabLayout;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    tabLayout=(TabLayout) findViewById(R.id.tablayout_id);
-    viewPager=(ViewPager)findViewById(R.id.viewpager_id);
-       adapter =new ViewPageAdapter(getSupportFragmentManager());
+        tabLayout=(TabLayout) findViewById(R.id.tablayout_id);
+        viewPager=(ViewPager)findViewById(R.id.viewpager_id);
+        adapter =new ViewPageAdapter(getSupportFragmentManager());
         //add frags here
         adapter.addFragment(new ExerciseFragment(),"Exercise");
         adapter.addFragment(new HistoryFragment(),"History");
         adapter.addFragment(new ActivitytrackerFragment(),"Activity");
         viewPager.setAdapter(adapter);
-        tabLayout.setupWithViewPager(viewPager );
+        tabLayout.setupWithViewPager(viewPager);
 
     }
 

@@ -11,9 +11,12 @@
 
         <TextView
             android:id="@+id/exe_name"
-            android:text="Exercise name"
+            android:text="Exe Name"
             style="@style/exercise_title" />
 
 
-    
+        <!--<TextView-->
+            <!--android:id="@+id/exe_name"-->
+            <!--android:text="Exe Name"-->
+            <!--style="@style/exercise_title" />-->
 </LinearLayout>
